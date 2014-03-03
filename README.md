@@ -1,2 +1,0 @@
-alexkonrad.github.io
-====================

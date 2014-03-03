@@ -1,4 +1,4 @@
-html, body, h1 {
+html, body, h1, h2, p {
   margin: 0;
   padding: 0;
   border: 0;
@@ -25,6 +25,7 @@ h1 {
   font-family: "Lucida Grande";
   font-size: 72px;
   font-weight: bold;
+  padding: 20px 0 50px 0;
   color: #222;
   text-align: center;
 }
@@ -38,6 +39,20 @@ a, a:visited {
 
 a:hover > .sidebar-item {
   background: #f3f3f3;
+}
+
+p, h2 {
+  padding: 10px;
+  color: #222;
+}
+
+p {
+}
+
+h2 {
+  font-family: "Lucida Grande";
+  font-size: 30px;
+  font-weight: bold;
 }
 
 .main {

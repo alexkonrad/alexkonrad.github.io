@@ -1,0 +1,55 @@
+html, body, h1 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+a, a:visited {
+  color: blue;
+  text-decoration: none;
+}
+
+.group:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+body {
+  font-family: "Helvetica";
+}
+
+h1 {
+  font-family: "Lucida Grande";
+  font-size: 48px;
+  color: #333;
+  padding: 10px 0;
+}
+
+.main {
+  margin: auto;
+  width: 900px;
+}
+
+.sidebar {
+  float: left;
+  width: 209px;
+  padding: 20px;
+  border-right: 1px solid lightgray;
+}
+
+.sidebar h1, a {
+  display: block;
+}
+
+.sidebar-item {
+  padding: 20px 0;
+}
+
+.posts {
+  float: left;
+  width: 610px;
+  padding: 20px;
+}

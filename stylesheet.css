@@ -7,7 +7,6 @@ html, body, h1 {
 }
 
 a, a:visited {
-  color: blue;
   text-decoration: none;
 }
 
@@ -19,13 +18,23 @@ a, a:visited {
 
 body {
   font-family: "Helvetica";
+  background: #fff;
 }
 
 h1 {
   font-family: "Lucida Grande";
-  font-size: 48px;
-  color: #333;
-  padding: 10px 0;
+  font-size: 72px;
+  font-weight: bold;
+  color: #222;
+  text-align: center;
+}
+
+a, a:visited {
+  color: #222;
+}
+
+a:hover > .sidebar-item {
+  background: #eee;
 }
 
 .main {
@@ -35,9 +44,9 @@ h1 {
 
 .sidebar {
   float: left;
+  margin-top: 20px;
   width: 209px;
-  padding: 20px;
-  border-right: 1px solid lightgray;
+  border-right: 1px solid #ddd;
 }
 
 .sidebar h1, a {
@@ -45,7 +54,9 @@ h1 {
 }
 
 .sidebar-item {
-  padding: 20px 0;
+  padding: 20px;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
 }
 
 .posts {

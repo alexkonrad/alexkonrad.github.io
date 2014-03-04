@@ -17,13 +17,13 @@ a, a:visited {
 }
 
 body {
-  font-family: "Lucida Grande";
+  font-family: "Helvetica";
   background: #fff;
 }
 
 h1 {
-  font-family: "Lucida Grande";
-  font-size: 97px;
+/*  font-family: "Lucida Grande";
+*/  font-size: 97px;
   font-weight: bold;
   padding: 20px 0 50px 0;
   color: #222;
@@ -58,8 +58,8 @@ p {
 }
 
 h2 {
-  font-family: "Lucida Grande";
-  font-size: 30px;
+/*  font-family: "Lucida Grande";
+*/  font-size: 30px;
   font-weight: bold;
 }
 

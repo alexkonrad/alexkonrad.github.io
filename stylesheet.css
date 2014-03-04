@@ -39,7 +39,11 @@ a, a:visited {
 
 a:hover > .sidebar-item {
   background: #f3f3f3;
+  /*background: #9DB6E9;*/
+/*	color: white;
+*/	transition: .5s;
 }
+
 
 a:hover .github {
 /*	border-bottom: 1px solid #222;
@@ -93,6 +97,7 @@ h2 {
 .sidebar-item {
 /*  padding: 20px;
 */  background: #fff;
+	transition: 1s;
 }
 
 .github {

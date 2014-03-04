@@ -17,13 +17,13 @@ a, a:visited {
 }
 
 body {
-  font-family: "Helvetica";
+  font-family: "Lucida Grande";
   background: #fff;
 }
 
 h1 {
   font-family: "Lucida Grande";
-  font-size: 72px;
+  font-size: 97px;
   font-weight: bold;
   padding: 20px 0 50px 0;
   color: #222;
@@ -64,7 +64,6 @@ h2 {
   float: left;
   margin-top: 20px;
   width: 209px;
-  border-right: 1px solid #ddd;
 }
 
 .sidebar h1, a {
@@ -85,6 +84,8 @@ h2 {
   float: left;
   width: 610px;
   padding: 20px;
+  border-left: 1px solid #ddd;
+
 }
 
 .post {

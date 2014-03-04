@@ -84,6 +84,9 @@ h2 {
 
 .name {
 	position: relative;
+	width: 700px;
+	left: -75px;
+	top: -15px;
 	margin: 200px;
 }
 

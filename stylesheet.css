@@ -38,10 +38,10 @@ a, a:visited {
 }
 
 a:hover > .sidebar-item {
-  background: #f3f3f3;
-  /*background: #9DB6E9;*/
-/*	color: white;
-*/	transition: .5s;
+/*  background: #f3f3f3;
+*/  background: #3B5998;
+  color: white;
+	transition: .5s;
 }
 
 

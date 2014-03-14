@@ -167,6 +167,10 @@ ul#sidebar > li:hover > h3 {
   margin: 5px;
 }
 
+#projects > h1 {
+  text-align: right;
+}
+
 .up {
   position: relative;
   top: 150px;

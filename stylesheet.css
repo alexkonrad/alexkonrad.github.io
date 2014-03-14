@@ -1,4 +1,4 @@
-html, body, h1, h2, p {
+html, body, h1, h2, h3, p {
   margin: 0;
   padding: 0;
   border: 0;
@@ -15,15 +15,16 @@ a, a:visited {
   clear: both;
   display: block;
 }
-
+ul, ol {
+  list-style: none;
+}
 body {
   font-family: "Helvetica";
   background: #fff;
 }
 
 h1 {
-/*  font-family: "Lucida Grande";
-*/  font-size: 97px;
+  font-size: 97px;
   font-weight: bold;
   padding: 20px 0 50px 0;
   color: #222;
@@ -37,22 +38,6 @@ a, a:visited {
   letter-spacing: 2px;
 }
 
-a:hover > .sidebar-item {
-/*  background: #f3f3f3;
-*/  background: #3B5998;
-  color: white;
-	transition: .5s;
-}
-
-
-a:hover .github {
-/*	border-bottom: 1px solid #222;
-	border-right: 1px solid #222;*/
-}
-
-a:hover .github + .sidebar-item {
-}
-
 p, h2 {
   padding: 10px;
   color: #222;
@@ -62,76 +47,56 @@ p {
 }
 
 h2 {
-/*  font-family: "Lucida Grande";
-*/  font-size: 30px;
+  font-size: 30px;
   font-weight: bold;
 }
 
-.main {
-  margin: auto;
-  width: 900px;
-}
-
-.sidebar {
-  float: left;
-  margin-top: 20px;
-  width: 209px;
-}
-
-.sidebar h1, a {
-  display: block;
-}
-
-.sidebar:last-child {
-  border-bottom: 0;
-}
-
-.name {
-	position: relative;
-	width: 700px;
-	left: -75px;
-	top: -15px;
-	margin: 200px;
-}
-
-.sidebar-item {
-/*  padding: 20px;
-*/  background: #fff;
-	transition: 1s;
-}
-.github {
-  position: absolute;
-  left: 104px;
-  top: 0;
-  padding: 125px 207px;
-  background: transparent;
-  text-align: center;
-}
-
-.linkedin {
-  position: absolute;
-  left: 600px;
-  top: 0;
-  padding: 125px 200px;
-  background: transparent;
-}
-
-.projects {
-  position: absolute;
-  left: 103px;
-  top: 275px;
-padding: 125px 201px;
-  background: transparent;
+ul {
   
 }
 
-.blog {
-  position: absolute;
-  left: 600px;
-  top: 275px;
-padding: 125px 223px;
-  background: transparent;
+li {
+  background: black;
+  position: relative;
+  width: 12px;
+  height: 12px;
+  margin-top: 10px;
+  border-radius: 12px;
+}
+
+li > h3 {
+  display: none;
+  position: relative;
+  right: 160px;
+  top: -8px;
+  height: 25px;
+  width: 150px;
+  padding-top: 6px;
+  background: black;
+  color: white;
+  border-radius: 3px;
   text-align: center;
+}
+
+li > a { 
+  display: none;
+  position: relative;
+  font-size: 12px;
+  font-weight: bold;
+  top: -40px;
+  padding: 12px;
+}
+
+li:hover {
+  background: lightgray;
+}
+
+li:hover > a {
+  display: block;
+}
+
+li:hover > h3 {
+  display: block;
 }
 
 #content {
@@ -143,45 +108,63 @@ padding: 125px 223px;
 #parallax-bg1 {
   position: fixed;
   z-index: 1;
-  top: 1000px;
-  height: 3000px;
+  top: 0px;
+  height: 1000px;
   width: 100%;
-  background: rgba(30,30,30,0.2);
+  background: #eee;
 }
 
 #parallax-bg2 {
   position: fixed;
   z-index: 2;
-  height: 2000px;
+  top: 1000px;
+  height: 1000px;
   width: 100%;
-  background: rgba(20,20,20,0.2);
+  background: #bbb;
 }
 
 #parallax-bg3 {
   position: fixed;
   z-index: 3;
+  top: 2000px;
   height: 1000px;
   width: 100%;
-  background: rgba(10,10,10,0.2);
+  background: #888;
 }
 
-.name {
+#name {
   position: absolute;
-  left: 100px;
+  left: 450px;
+  width: 600px;
   top: 200px;
 }
 
-.bio {
+#bio {
   position: absolute;
   left: 450px;
   width: 600px;
   top: 1200px;
 }
 
+#projects {
+  position: absolute;
+  left: 450px;
+  width: 600px;
+  top: 2200px;
+}
+
+#about {
+  position: absolute;
+  left: 450px;
+  width: 600px;
+  top: 3200px;
+}
+
 #sidebar {
   position: fixed;
-  left: 100px;
-  top: 400px;
+  right: 15px;
+  width: 50px;
+  top: 350px;
 }
 
 .elvis-1 {

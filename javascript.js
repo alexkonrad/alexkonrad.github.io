@@ -6,14 +6,14 @@ $(document).ready(function() {
   function parallaxScroll(){
     var scrolled = $(window).scrollTop();
     $('#parallax-bg1').css('top',(0-(scrolled*.35))+'px');
-    $('#parallax-bg2').css('top',(1000-(scrolled*.75))+'px');
+    $('#parallax-bg2').css('top',(1000-(scrolled*.50))+'px');
     $('#parallax-bg3').css('top',(2000-(scrolled*.75))+'px');
   };
   
   $('a#name-link').click(function(){
   	$('html, body').animate({
   		scrollTop:$('#name').offset().top
-  	}, 1000, function() {
+  	}, 750, function() {
     	parallaxScroll(); // Callback is required for iOS
 	});
   	return false;
@@ -21,7 +21,7 @@ $(document).ready(function() {
   $('a#bio-link').click(function(){
   	$('html, body').animate({
   		scrollTop:$('#bio').offset().top
-  	}, 1000, function() {
+  	}, 750, function() {
     	parallaxScroll(); // Callback is required for iOS
 	});
   	return false;
@@ -29,7 +29,7 @@ $(document).ready(function() {
   $('a#projects-link').click(function(){
   	$('html, body').animate({
   		scrollTop:$('#projects').offset().top
-  	}, 1000, function() {
+  	}, 750, function() {
     	parallaxScroll(); // Callback is required for iOS
 	});
   	return false;
@@ -37,7 +37,7 @@ $(document).ready(function() {
   $('a#about-link').click(function(){
   	$('html, body').animate({
   		scrollTop:$('#about').offset().top
-  	}, 1000, function() {
+  	}, 750, function() {
     	parallaxScroll(); // Callback is required for iOS
 	});
   	return false;

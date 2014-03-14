@@ -38,7 +38,6 @@ a, a:visited {
 }
 
 p, h2 {
-  padding: 10px;
   color: #222;
 }
 
@@ -46,7 +45,7 @@ p {
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 28px;
   font-weight: bold;
 }
 
@@ -166,6 +165,11 @@ ul#sidebar > li:hover > h3 {
   padding: 15px;  
   border: 1px solid lightgray;
   margin: 5px;
+}
+
+.up {
+  position: relative;
+  top: 150px;
 }
 
 #projects > ul > li > img {

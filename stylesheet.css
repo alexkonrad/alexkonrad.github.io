@@ -89,6 +89,10 @@ ul#sidebar > li:hover {
   background: lightgray;
 }
 
+ul#sidebar > li.active {
+  background: lightgray;
+}
+
 ul#sidebar > li:hover > a {
   display: block;
 }
@@ -103,32 +107,32 @@ ul#sidebar > li:hover > h3 {
   height: 10000px;
 }
 
-/*#parallax-bg1 {
+#parallax-bg1 {
   position: fixed;
   z-index: 1;
   top: 0px;
   height: 1000px;
   width: 100%;
-  background: #eee;
-}*/
+/*  background: #eee;*/
+}
 
-/*#parallax-bg2 {
+#parallax-bg2 {
   position: fixed;
   z-index: 2;
   top: 900px;
   height: 1000px;
   width: 100%;
-  background: #bbb;
-}*/
+/*  background: #bbb;*/
+}
 
-/*#parallax-bg3 {
+#parallax-bg3 {
   position: fixed;
   z-index: 3;
   top: 3000px;
   height: 1000px;
   width: 100%;
-  background: #888;
-}*/
+/*  background: #888;*/
+}
 
 #name {
   position: absolute;
@@ -213,5 +217,5 @@ ul#sidebar > li:hover > h3 {
   position: absolute;
   left: 500px;
   top: 700px;
-    height: 3000px;
+    height: 1000px;
 }

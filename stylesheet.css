@@ -109,10 +109,9 @@ ul#sidebar > li:hover > h3 {
 
 #parallax-bg1 {
   position: fixed;
-  z-index: 1;
+  z-index: 5;
   top: 0px;
-  height: 1000px;
-  width: 100%;
+  width: 90%;
 /*  background: #eee;*/
 }
 
@@ -127,11 +126,25 @@ ul#sidebar > li:hover > h3 {
 
 #parallax-bg3 {
   position: fixed;
-  z-index: 3;
+  z-index: 1;
   top: 3000px;
   height: 1000px;
   width: 100%;
 /*  background: #888;*/
+}
+
+#parallax-bg1 > ul {
+  position: relative;
+  top: 1850px;
+}
+
+#parallax-bg1 > li {
+}
+
+#parallax-bg2 > ul {
+  position: relative;
+  left: 0px;
+  top: 1950px;
 }
 
 #name {
@@ -162,7 +175,7 @@ ul#sidebar > li:hover > h3 {
 #projects > ul {
 }
 
-#projects > ul > li {
+.projects-list > li {
   float: left;
   width: 200px;
   height: 400px;
@@ -175,15 +188,19 @@ ul#sidebar > li:hover > h3 {
   text-align: right;
 }
 
-.up {
+/*.up {
   position: relative;
   top: 150px;
-}
+}*/
 
-#projects > ul > li > img {
+.projects-list > li > img {
   width: 202px;
   height: 202px;
   border: 1px solid lightgray;
+}
+
+.projects-list > li > a {
+  position: relative;
 }
 
 #about {

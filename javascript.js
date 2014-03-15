@@ -5,8 +5,8 @@ $(document).ready(function() {
  
   function parallaxScroll(){
     var scrolled = $(window).scrollTop();
-    $('#parallax-bg1').css('top',(0-(scrolled*.35))+'px');
-    $('#parallax-bg2').css('top',(1000-(scrolled*.75))+'px');
+    $('#parallax-bg1').css('top',(0-(scrolled*.75))+'px');
+    $('#parallax-bg2').css('top',(1000-(scrolled*1.25))+'px');
     $('#parallax-bg3').css('top',(2000-(scrolled*.25))+'px');
     
     $('li').removeClass('active')

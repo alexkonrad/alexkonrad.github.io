@@ -54,6 +54,7 @@ ul#sidebar {
 }
 
 #sidebar {
+
 }
 
 ul#sidebar > li {
@@ -86,6 +87,7 @@ ul#sidebar > li > a {
   font-weight: bold;
   top: -40px;
   padding: 12px;
+
 }
 
 ul#sidebar > li:hover {
@@ -207,7 +209,6 @@ ul#sidebar > li:hover > h3 {
 }
 
 .about-list > li#about-bio {
-  height: 100px;
   width: 400px;
 }
 
@@ -222,7 +223,7 @@ ul#sidebar > li:hover > h3 {
 }
 
 .about-list > li#resume {
-  margin-top: -345px;
+  margin-top: -390px;
   width: 400px;
 }
 

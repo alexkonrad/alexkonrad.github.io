@@ -50,7 +50,10 @@ h2 {
 }
 
 ul#sidebar {
-  
+
+}
+
+#sidebar {
 }
 
 ul#sidebar > li {
@@ -76,7 +79,7 @@ ul#sidebar > li > h3 {
   text-align: center;
 }
 
-ul#sidebar > li > a { 
+ul#sidebar > li > a {
   display: none;
   position: relative;
   font-size: 12px;
@@ -179,9 +182,38 @@ ul#sidebar > li:hover > h3 {
   float: left;
   width: 200px;
   height: 400px;
-  padding: 15px;  
+  padding: 15px;
   border: 1px solid lightgray;
   margin: 5px;
+}
+
+.about-list {
+  /*position: absolute;*/
+  margin-top: 900px;
+}
+
+.about-list > li {
+  border: 1px solid lightgray;
+  float: left;
+  margin: 5px;
+  padding: 20px;
+}
+
+.about-list > li > img {
+  display: block;
+}
+
+.about-list > li#picture {
+}
+
+.about-list > li#about-bio {
+  height: 100px;
+  width: 400px;
+}
+
+.about-list > li#resume {
+  height: 100px;
+  width: 400px;
 }
 
 #projects > h1 {

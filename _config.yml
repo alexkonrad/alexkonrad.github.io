@@ -4,9 +4,9 @@ email: alexkonrad08@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Developer in Brooklyn, NY
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://amkonrad.com" # the base hostname & protocol for your site
-twitter_username: alexkonrad
-github_username:  alexkonrad
+url: "http://alexkonrad.github.io" # the base hostname & protocol for your site
+# twitter_username: alexkonrad
+# github_username:  alexkonrad
 
 # Build settings
 markdown: kramdown

@@ -44,6 +44,10 @@ ul {
 
 li {
   list-style: none;
+
+  &.posts {
+    border-bottom: 1px solid lightgray;
+  }
 }
 
 a {

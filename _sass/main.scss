@@ -1,3 +1,60 @@
+@import "code";
+
+$break-small: 600px;
+
+body {
+  display: flex;
+  font-family: 'Libre Baskerville', serif;
+  margin: 0 auto;
+  max-width: 50rem;
+  padding: 0 1rem;
+
+  @media screen and (max-width: $break-small) {
+    flex-direction: column;
+  }
+}
+
+nav {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  order: 1;
+  padding: 5rem 1rem 0 1rem;
+}
+
+nav > a {
+  text-decoration: none;
+  line-height: 3;
+}
+
+main {
+  flex: 5;
+  padding: 1rem 0 0;
+}
+
+article {
+  line-height: 2;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+
+}
+
+pre {
+  line-height: 1.2;
+  padding: 1em;
+}
+
 .profile-picture {
   width: 250px;
 }

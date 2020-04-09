@@ -1,0 +1,103 @@
+:root {
+  --background-color: rgb(24, 25, 26);
+  --headline-font: 'Roboto Slab', sans-serif;
+  --headline-size: 48px;
+  --headline-color: rgb(228, 230, 235);
+  --headline-weight: 600;
+  --link-color: rgb(228, 230, 235);
+  --link-font: system-ui, sans-serif;
+  --link-weight: 500;
+  --font-size: 15px;
+  --text-color: rgb(228, 230, 235);
+  --main-font: system-ui, sans-serif;
+}
+
+html {
+  font-size: var(--font-size);
+  background-color: var(--background-color);
+  -webkit-font-smoothing: antialiased;
+}
+
+main {
+  font-family: var(--main-font);
+  color: var(--text-color);
+  max-width: 35rem;
+  margin-top: 8rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+article {
+  background: rgb(35, 36, 37);  
+  border-radius: 4px;
+  margin: 1.5rem 0;
+  padding: .5rem 1rem;
+}
+
+section {
+  margin: 2rem 0;
+}
+
+h1 {
+  font-family: var(--headline-font);
+  font-size: var(--headline-size);
+  font-weight: var(--headline-weight);
+  color: var(--headline-color);
+  margin-bottom: 1rem;
+}
+
+a {
+  color: var(--link-color);
+  font-family: var(--link-font);
+  font-weight: var(--link-weight);
+  letter-spacing: 0px;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+header.horizontal {
+  align-items: flex-end;
+}
+
+header > img {
+  padding-right: 2rem;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: .5rem 0;
+}
+
+
+footer {
+}
+
+
+p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+header {
+
+}
+
+#avatar {
+  width: 10rem;
+}

@@ -2,3 +2,13 @@
 <link rel="stylesheet" type="text/css" href="/css/normalize.css"></link>
 <link rel="stylesheet" type="text/css" href="/css/fonts.css"></link>
 <link rel="stylesheet" type="text/css" href="/css/main.css"></link>
+{% if page.layout == "post" %}
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.0.1/es5/tex-mml-chtml.js"></script>
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  }
+};
+</script>
+{% endif %}

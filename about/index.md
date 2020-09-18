@@ -1,9 +1,21 @@
 ---
 title: About
-layout: default
-header: Bio
+layout: home
 ---
 
-I'm an MSCS student at UC-Irvine. I'm interested in statistical machine learning, specifically computer vision, natural language processing, probabilistic modeling and statistics.
+## Who I Am
 
-Feel free to get in contact with me here.
+I work at the intersection of machine learning, statistics, and software
+ engineering. Before that, I worked for many years building web and mobile
+  applications. I'm currently getting a graduate degree in computer science. 
+
+## Other Interests
+
+I'm also interested in philosophy, languages, and just about everything else
+. 
+
+## Contact Me 
+
+I am also available for consulting, and happy to connect to talk about an idea.
+
+

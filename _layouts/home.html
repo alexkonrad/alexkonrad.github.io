@@ -1,49 +1,9 @@
 ---
 layout: default
-title: Alex Konrad
+title: aknrd
 ---
-
-<header class="horizontal">
-  <h1>
-    {{ layout.title }}
-  </h1>
-
-  <img src="/images/avatar.png" id="avatar">
-</header>
 
 <section>
 {{ content }}
 </section>
 
-<hr/>
-
-<ul class="horizontal">
-  {% for page in site.pages %}
-  <li>
-    <a href="{{ page.url }}">
-      {{ page.title }}
-    </a>
-  </li>
-  {% endfor %}
-</ul>
-
-
-
-<!-- 
-<section>
-
-<h2>Notes</h2>
-
-{% for post in site.posts %}
-<article>
-  <a href="{{ post.url }}">
-    {{ post.title }}
-  </a>
-  <br/>
-  <small>
-    {{ post.excerpt }}
-  </small>
-</article>
-{% endfor %}
-</section>
--->

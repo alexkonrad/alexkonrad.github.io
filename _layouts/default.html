@@ -1,10 +1,13 @@
 <!doctype html>
+<html data-theme="light">
 <meta charset="utf-8">
 <title>{{ page.title }}</title>
+
 {% include head.html %}
 
-
 <main>
+  {% include menu-short.html %}
+
   {% if page.header %}
   <h1>
     {{ page.header }}
@@ -18,12 +21,7 @@
   </footer>
 </main>
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-162755471-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-162755471-1');
-</script>
+{% unless site.host == "127.0.0.1" %}
+{% include analytics.html %}
+{% endunless %}
+</html>

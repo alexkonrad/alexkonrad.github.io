@@ -1,14 +1,17 @@
-<link href="https://fonts.googleapis.com/css?family=Roboto:400,600|Roboto+Slab:600,700,800" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,600|Roboto+Slab:600,700,800|Roboto+Mono:200,300,400,500,600,700,800" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="/css/normalize.css"></link>
 <link rel="stylesheet" type="text/css" href="/css/fonts.css"></link>
-<link rel="stylesheet" type="text/css" href="/css/main.css"></link>
+<link rel="stylesheet" type="text/css" href="/css/main.css?xyzz"></link>
 {% if page.layout == "post" %}
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.0.1/es5/tex-mml-chtml.js"></script>
 <script>
 window.MathJax = {
   tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']]
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+    processEscapes: false,
   }
 };
 </script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.0.1/es5/tex-mml-chtml.js"></script>
+
 {% endif %}

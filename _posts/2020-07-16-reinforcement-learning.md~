@@ -1,0 +1,25 @@
+---
+layout: post
+permalink: /notes/reinforcement-learning
+title: Reinforcement Learning
+excerpt: Notes mostly from Sutton & Barto
+---
+
+## Dynamic Programming
+
+### Introduction
+
+### Policy Evaluation
+
+To evaluate a policy $\pi$, use Bellman expectation equation with an iterative update. We start off with an initial arbitrary value function, $v_1=0$. From there, we compute a one-step lookahead using the Bellman equation, and compute a new value function called $v_2$. In the limit, this will converge to $v_\pi$.
+
+We first use the method of synchronous backups, which computes the new value function for each state  For each iteration $k+1$, for all states $s\in\mathcal{S}$, apply iterative update to compute the new value function.
+
+$$v_{k+1}(s) = \sum_{a\in\mathcal{A}} \pi(a|s) \left(\mathcal{R}_s^a + \gamma \sum_{s'\in\mathcal{S}} \mathcal{P}_{ss'}^a v_k(s') \right)$$
+
+contraction mapping theorem
+Bellman expectation equation to do policy evaluation---Bellman optimality equation is used for control. Iterative policy 
+
+## Applications
+
+* Thermal Soaring

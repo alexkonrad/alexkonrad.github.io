@@ -1,15 +1,28 @@
 :root {
-  --background-color: rgb(24, 25, 26);
-  --headline-font: 'Roboto Slab', sans-serif;
+  --headline-font: 'Roboto Mono', sans-serif;
   --headline-size: 48px;
-  --headline-color: rgb(228, 230, 235);
   --headline-weight: 600;
-  --link-color: rgb(228, 230, 235);
-  --link-font: system-ui, sans-serif;
+  --link-font: 'Roboto Mono', system-ui, sans-serif;
   --link-weight: 500;
   --font-size: 15px;
+  --main-font: 'Roboto Mono', system-ui, sans-serif;
+
+}
+
+[data-theme="dark"] {
+  --background-color: rgb(24, 25, 26);
+  --headline-color: rgb(228, 230, 235);
+  --link-color: rgb(228, 230, 235);
   --text-color: rgb(228, 230, 235);
-  --main-font: system-ui, sans-serif;
+
+}
+
+
+[data-theme="light"] {
+  --background-color: rgb(240, 241, 246);
+  --headline-color: rgb(24, 25, 26);
+  --link-color: blue;
+  --text-color: rgb(43, 43, 43);
 }
 
 html {
@@ -22,16 +35,19 @@ main {
   font-family: var(--main-font);
   color: var(--text-color);
   max-width: 35rem;
-  margin-top: 8rem;
+  letter-spacing: 0rem;
+  margin-top: 1rem;
   margin-left: auto;
   margin-right: auto;
 }
 
 article {
-  background: rgb(35, 36, 37);  
   border-radius: 4px;
-  margin: 1.5rem 0;
-  padding: .5rem 1rem;
+  margin:  0;
+}
+
+article > p {
+  margin: 1rem 0 2rem 1rem;
 }
 
 section {

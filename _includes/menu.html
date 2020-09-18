@@ -1,0 +1,12 @@
+<ul class="horizontal">
+    {% for each_page in site.pages %}
+    {% unless page.title == each_page.title %}
+    <li>
+        <a href="{{ each_page.url }}">
+            {{ each_page.title }}
+        </a>
+    </li>
+    {% endunless%}
+    {% endfor %}
+</ul>
+<hr/>
